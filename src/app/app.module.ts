@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { DownloadComponent } from './download/download.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DownloadComponent } from './download/download.component';
     HeaderComponent,
     HomeComponent,
     BlogsComponent,
-    DownloadComponent
+    DownloadComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
