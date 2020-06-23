@@ -1,25 +1,54 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- Simple navigation bar  -->
 
-    <div class="container">
+<!-- <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" routerLink="home">ADITYA JAIN</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="experience">Experience</a>
+      </li>
 
-        <a class="navbar-brand" routerLink="home">ADITYA JAIN</a>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="blogs">Blogs</a>
+      </li>
 
-        <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="downloads">Downloads</a>
+      </li>
+    </ul>
+  </div>
+</nav> -->
 
-            <li class="nav-item">
-                <a class="nav-link active" routerLink="experience">Experience</a>
-            </li>
+<!-- Navigation bar with toggle button -->
 
-            <li class="nav-item">
-                <a class="nav-link" routerLink="blogs">Blogs</a>
-            </li>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
 
-            <li class="nav-item">
-                <a class="nav-link" routerLink="downloads">Downloads</a>
-            </li>
+  <div class="container">
+      
+    <a class="navbar-brand" routerLink="home">ADITYA JAIN</a>
 
-        </ul>
+    <button
+      class="navbar-toggler"
+      data-toggler="collapse"
+      data-target="#navbarNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="experience">Experience</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="blogs">Blogs</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="downloads">Downloads</a>
+        </li>
+      </ul>
     </div>
-
+  </div>
 </nav>
